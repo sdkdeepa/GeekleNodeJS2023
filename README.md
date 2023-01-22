@@ -8,10 +8,13 @@ openssl req -x509 -out localhost.crt -keyout localhost.key \
    printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:localhost\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
 ```
 #### Steps: 
-1) If you are using VS Code, open index.html and click `Go Live` to run on the port. 
+1) Run `npm install`
 
-2) Open chrome dev tools to see if service worker is 3) registered and try to click offline too! 
-3) Run the Lighhouse tool. PWA should be able to install and it passes the audit checks.
+2) If you are using VS Code, open index.html and click `Go Live` to run on the port. 
+
+3) Open chrome dev tools to see if service worker is 3) registered and try to click offline too! 
+   
+4) Run the Lighhouse tool. PWA should be able to install and it passes the audit checks.
 
 ### Screenshots:
 
