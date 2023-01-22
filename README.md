@@ -16,10 +16,10 @@ openssl req -x509 -out localhost.crt -keyout localhost.key \
 ### Screenshots:
 
 Install Icon:
-
+![Screenshot1](https://github.com/sdkdeepa/GeekleNodeJS2023/blob/main/screenshots/installIcon.png)
 
 Manifest:
-
-
+![Screenshot2](https://github.com/sdkdeepa/GeekleNodeJS2023/blob/main/screenshots/manifest.png)
 
 PWA Lighthouse Audit:
+![Screenshot3](https://github.com/sdkdeepa/GeekleNodeJS2023/blob/main/screenshots/PWApassesWithSWregistered.png)
