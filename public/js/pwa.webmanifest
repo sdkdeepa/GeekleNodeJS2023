@@ -1,0 +1,17 @@
+{
+  "name": "Progressive Web App example",
+  "short_name": "pwa-tutorial",
+  "description": "Example of Progressive Web App example with node.js",
+  "icons": [
+    {
+      "src": "/public/images/splash-screen.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/public/index.html",
+  "display": "fullscreen",
+  "theme_color": "#f27979",
+  "background_color": "#def279"
+}
